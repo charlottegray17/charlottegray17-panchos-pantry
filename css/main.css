@@ -1,0 +1,287 @@
+/***** BASE STYLES ******/
+
+@fontface {
+  font: amazing-kids;
+  src: url('../panchos-panty/fonts/amazing-kids.ttf') format('truetype');
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+}
+
+.third-width {
+  width: 400px;
+}
+
+/***** NAVIGATION *****/
+
+#header-logo img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+#navigation {
+  background-color: #f5989d;
+  list-style: none;
+  float: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  margin: 30.02px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+nav ul li {
+    padding: 27px 22px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  color: #ee4899;
+}
+
+/***** MAIN *****/
+
+main {
+  clear: both;
+  margin: 180px 200px;
+
+    padding: 30px;
+    border: 4px dashed #e1e0e0;
+}
+
+#main-title , #welcome-speech {
+}
+
+#main-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 59.66px;
+  width: 673px;
+  line-height: 55px;
+}
+
+#main-title span {
+  color: #ee4899;
+  font-family: 'Playfair Display', serif;
+  font-size: 59.66px;
+  width: 673px;
+  line-height: 55px;
+}
+
+#character img {
+  float: right;
+  position: fixed;
+  right: 0;
+  height: 530px;
+  margin-top: -415px;
+  margin-right: 130px;
+}
+
+#welcome-speech p {
+  font-size: 19px;
+  padding-top: 50px;
+  padding-left: 35px;
+  text-align: center;
+  width: 550px;
+}
+
+#welcome-speech a {
+  text-decoration: none;
+  color: #ee4899;
+  font-weight: bold;
+}
+
+/***** FOOTER *****/
+
+footer {
+  background-color: #f5989d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+}
+
+#column-one, #column-two, #column-three {
+  color: white;
+}
+
+/***** COLUMN ONE *****/
+
+section {
+  float: left;
+  width: 398px;
+}
+
+#column-one img {
+  float: left;
+  padding-left: 30.02px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+#column-one h2 {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+}
+
+#column-one h3 {
+  clear: both;
+  float: left;
+  font-family: amazing-kids;
+  font-size: 44.3px;
+  margin-left: 114px;
+  margin-top: -80px;
+  letter-spacing: 3px;
+}
+
+#rectangle-one {
+  width: 155px;
+  height: 40px;
+  background: #ee4899;
+  margin-left: 7px;
+}
+
+/***** COLUMN TWO *****/
+
+#column-two {
+  text-align: center;
+  margin-right: -180px;
+}
+
+#column-two h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20.82px;
+  letter-spacing: 4px;
+  padding-top: 20px;
+  word-spacing: 5px;
+}
+
+#column-two h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 35.17px;
+  margin-top: 1px;
+}
+
+#column-two h5 {
+  font-size: 14px;
+  margin-right: 123px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  margin-top: 3px;
+}
+
+#rectangle-two {
+  width: 300px;
+  height: 40px;
+  background: #ee4899;
+  margin-top: 50px;
+  position: fixed;
+  z-index: -1;
+  margin-left: 540px;
+}
+
+#column-two h5 {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+  float: right;
+}
+
+/***** COLUMN THREE *****/
+
+
+#column-three {
+  float: right;
+  text-align: right;
+  margin-right: -150px;
+}
+
+#column-three h2 {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-right: -5px;
+  word-spacing: 5px;
+}
+
+#column-three h3 {
+  clear: both;
+  font-family: amazing-kids;
+  font-size: 44.3px;
+  margin-right: 20px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+#rectangle-three {
+  width: 265px;
+  height: 40px;
+  background: #ee4899;
+  margin-left: 1075px;
+  margin-top: 60px;
+  position: absolute;
+  z-index: -1;
+}
+/***** SIDENAV *****/
+
+sidenav {
+  float: right;
+  list-style: none;
+  padding-right: 30.02px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: fixed;
+  right: 0;
+}
+
+sidenav ul li {
+  list-style-type: none;
+}
+
+sidenav a {
+  text-decoration: none;
+}
