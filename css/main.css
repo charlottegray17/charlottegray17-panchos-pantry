@@ -87,6 +87,7 @@ nav a:hover:not(.active) {
   padding: 30px;
   position: fixed;
   width: 700px;
+  z-index: -1;
 }
 
 
@@ -107,6 +108,7 @@ nav a:hover:not(.active) {
   line-height: 55px;
   width: 670px;
   text-align: center;
+  z-index: -1;
 }
 
 #main-title span {
@@ -114,12 +116,12 @@ nav a:hover:not(.active) {
 }
 
 #character {
-  float: right;
-  height: 530px;
-  margin-top: 100px;
-  margin-left: 880px;
+  float: left;
+  height: 600px;
+  margin-top: 120px;
+  margin-left: 720px;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 #welcome-speech p {
