@@ -80,9 +80,13 @@ nav a:hover:not(.active) {
 /***** MAIN *****/
 
 .main-text {
-  align-items: center;
-  margin-left: 50%;
-  width: 500px;
+  border: 4px dashed #e1e0e0;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 200px;
+  padding: 30px;
+  position: fixed;
+  width: 700px;
 }
 
 
@@ -185,46 +189,6 @@ footer {
   z-index: -1;
 }
 
-
-/****commenting out column-one styling
-#column-one img {
-  float: left;
-  padding-left: 30.02px;
-  padding-top: 16px;
-  padding-bottom: 10px;
-}
-
-#column-one h2 {
-  float: left;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 30px;
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 4px;
-  word-spacing: 5px;
-}
-
-#column-one h3 {
-  clear: both;
-  float: left;
-  font-family: amazing-kids;
-  font-size: 44.3px;
-  margin-left: 114px;
-  margin-top: -80px;
-  letter-spacing: 3px;
-}
-
-#rectangle-shape-one {
-  width: 155px;
-  height: 40px;
-  background: #ee4899;
-  position: absolute;
-  left: 100px;
-  top: 60px;
-  z-index: -1;
-}
-*****/
-
 /***** COLUMN TWO *****/
 
 #column-two {
@@ -319,25 +283,3 @@ footer {
 #sidenav img {
   padding: 5px;
 }
-
-/**** commenting out sidebar
-#sidenav {
-  background-color: black;
-  display: inline-block;
-  list-style: none;
-  padding-right: 30.02px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  position: fixed;
-  right: 0;
-}
-
-
-#sidenav ul li {
-  list-style-type: none;
-}
-
-#sidenav a {
-  text-decoration: none;
-}
-******/
