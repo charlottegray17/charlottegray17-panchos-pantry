@@ -18,14 +18,19 @@ body {
 .full-width {
   width: 1200px;
   margin: 0 auto;
+  float: left;
 }
 
 .half-width {
   width: 600px;
+  float: left;
+  margin: 0 auto;
 }
 
 .third-width {
   width: 400px;
+  float: left;
+  margin: 0 auto;
 }
 
 /***** NAVIGATION *****/
@@ -99,8 +104,8 @@ nav a:hover:not(.active) {
   float: right;
   height: 530px;
   margin-top: 100px;
-  margin-right: 80px;
-  position: relative;
+  margin-left: 880px;
+  position: absolute;
   z-index: 1;
 }
 
@@ -134,13 +139,47 @@ footer {
 
 /***** COLUMN ONE *****/
 
-section {
-  float: left;
-  width: 398px;
+#column-one {
+  text-align: center;
+  padding-top: 10px;
 }
 
 #column-one img {
-  float: left; 
+  float: left;
+  margin-left: 100px;
+}
+
+#column-one h2 {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+}
+
+#column-one h3 {
+  float: left;
+  font-family: amazing-kids;
+  font-size: 44.3px;
+  letter-spacing: 3px;
+  margin-left: 15px;
+}
+
+#rectangle-shape-one {
+  width: 155px;
+  height: 40px;
+  background: #ee4899;
+  position: absolute;
+  left: 170px;
+  top: 50px;
+  z-index: -1;
+}
+
+
+/****commenting out column-one styling
+#column-one img {
+  float: left;
   padding-left: 30.02px;
   padding-top: 16px;
   padding-bottom: 10px;
@@ -175,19 +214,19 @@ section {
   top: 60px;
   z-index: -1;
 }
+*****/
 
 /***** COLUMN TWO *****/
 
 #column-two {
   text-align: center;
+  padding-top: 10px;
 }
 
 #column-two h2 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 20.82px;
   letter-spacing: 4px;
-  padding-top: 20px;
   word-spacing: 5px;
 }
 
@@ -196,15 +235,16 @@ section {
   font-weight: bold;
   letter-spacing: 4px;
   font-size: 35.17px;
-  margin-top: 1px;
+  margin-top: -4px;
 }
 
 #column-two h5 {
   font-size: 14px;
-  margin-right: 123px;
+  font-weight: normal;
   letter-spacing: 1px;
   word-spacing: 5px;
   margin-top: 3px;
+  text-transform: uppercase;
 }
 
 #rectangle-shape-two {
@@ -213,52 +253,41 @@ section {
   background: #ee4899;
   position: absolute;
   z-index: -1;
-}
+  left: 450px;
+  top: 40px;
 
-#column-two h5 {
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 4px;
-  float: right;
 }
 
 /***** COLUMN THREE *****/
 
 
 #column-three {
-  float: right;
-  text-align: right;
-  margin-right: -150px;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #column-three h2 {
-  float: left;
   font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 30px;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 4px;
-  margin-right: -5px;
   word-spacing: 5px;
 }
 
 #column-three h3 {
-  clear: both;
   font-family: amazing-kids;
   font-size: 44.3px;
-  margin-right: 20px;
-  margin-top: 50px;
   letter-spacing: 3px;
 }
 
-#rectangle-three {
+#rectangle-shape-three {
   width: 265px;
   height: 40px;
   background: #ee4899;
-  margin-left: 1075px;
-  margin-top: 60px;
   position: absolute;
   z-index: -1;
+  left: 860px;
 }
 
 /***** SIDENAV *****/
@@ -267,10 +296,6 @@ section {
 
 #sidenav {
   z-index: 1;
-  float: right;
-  margin-top: 80px;
-  position: relative;
-  right: 150px;
 }
 
 #sidenav ul {
