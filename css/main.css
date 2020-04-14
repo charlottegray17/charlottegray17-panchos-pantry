@@ -18,7 +18,6 @@ body {
 .full-width {
   width: 1200px;
   margin: 0 auto;
-  float: left;
 }
 
 .half-width {
@@ -81,12 +80,22 @@ nav a:hover:not(.active) {
 /***** MAIN *****/
 
 .main-text {
+  align-items: center;
+  margin-left: 50%;
+  width: 500px;
+}
+
+
+/****commenting out original styling
+.main-text {
   clear: both;
   margin: 156px 200px;
   padding: 30px;
   position: fixed;
   border: 4px dashed #e1e0e0;
 }
+
+*****/
 
 #main-title h1 {
   font-family: 'Playfair Display', serif;
@@ -171,7 +180,7 @@ footer {
   height: 40px;
   background: #ee4899;
   position: absolute;
-  left: 170px;
+  left: 410px;
   top: 50px;
   z-index: -1;
 }
@@ -253,7 +262,7 @@ footer {
   background: #ee4899;
   position: absolute;
   z-index: -1;
-  left: 450px;
+  left: 690px;
   top: 40px;
 
 }
@@ -287,7 +296,7 @@ footer {
   background: #ee4899;
   position: absolute;
   z-index: -1;
-  left: 860px;
+  left: 1107px;
 }
 
 /***** SIDENAV *****/
