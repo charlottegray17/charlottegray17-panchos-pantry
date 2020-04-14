@@ -90,18 +90,6 @@ nav a:hover:not(.active) {
   z-index: -1;
 }
 
-
-/****commenting out original styling
-.main-text {
-  clear: both;
-  margin: 156px 200px;
-  padding: 30px;
-  position: fixed;
-  border: 4px dashed #e1e0e0;
-}
-
-*****/
-
 #main-title h1 {
   font-family: 'Playfair Display', serif;
   font-size: 61px;
